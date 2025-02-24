@@ -10,7 +10,7 @@ The project is written in Python using Jupyter Notebook and CUDA programming lan
 - UNIX based system (or WSL for windows 10 and 11)
 
 #### Building the model
-1. Check the current version of the CUDA toolkit installed on your machine (recommended version: 12.1):
+1. Check the current version of the CUDA toolkit installed on your machine (recommended version: 12.6):
 ```sh
 nvcc --version
 ```
@@ -34,4 +34,4 @@ git clone https://github.com/NicKylis/letter_recognition.git
 > **Note**: Remember to adjust the number of epochs to your system's limitations. If you are using google Colabs without Colab Pro access, you might encounter very slow compilation times or even be kicked out from the session mid training. Setting the number of epochs to 10 should be sufficient for more than 96% accuracy.
 
 ## Authors
-Kylintireas Nikolaos, Lourmpakis Evaggelos, Toramanidou Christodouli
+Kylintireas Nikolaos, Lourmpakis Evangelos, Toramanidou Christodouli
