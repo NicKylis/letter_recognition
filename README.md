@@ -5,22 +5,18 @@ An AI model that recognizes hand written digits, trained with the [MNIST](https:
 The project is written in Python using Jupyter Notebook and CUDA programming lanuage through tensorflow. It can be run both on google colabs or locally.
 
 ### Prerequisites (local execution)
-- CUDA Toolkit installed on your system
+- Tensorflow library installed
 - A compatible NVIDIA GPU
 - UNIX based system (or WSL for windows 10 and 11)
 
 #### Building the model
-1. Check the current version of the CUDA toolkit installed on your machine (recommended version: 12.6):
-```sh
-nvcc --version
-```
 
-2. Clone the repository:
+1. Clone the repository:
 ```sh
 git clone https://github.com/NicKylis/letter_recognition.git
 ```
 
-3. Compile and run all shells, using your preferable IDE.
+2. Compile and run all shells, using your preferable IDE.
 
 ### Prerequisites (cloud execution)
 - An account on google
