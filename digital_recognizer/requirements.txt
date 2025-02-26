@@ -1,7 +1,0 @@
-Flask
-gunicorn
-flask-cors  # If you need CORS support
-tensorflow
-numpy
-opencv-python-headless
-Pillow
