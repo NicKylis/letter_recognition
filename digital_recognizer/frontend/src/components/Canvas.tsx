@@ -95,15 +95,18 @@ export const Canvas = () => {
 
     try {
       // Send the image to the Flask API
-      const response = await fetch("http://localhost:5000/predict", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json", // Set the content type to JSON
-        },
-        body: JSON.stringify({
-          image: dataURL, // Send the base64 string in JSON
-        }),
-      });
+      const response = await fetch(
+        "https://letter-recognition.onrender.com/predict",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json", // Set the content type to JSON
+          },
+          body: JSON.stringify({
+            image: dataURL, // Send the base64 string in JSON
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Prediction failed");
