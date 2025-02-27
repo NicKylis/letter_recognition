@@ -2,7 +2,8 @@
 An AI model that recognizes hand written digits, trained with the [MNIST](https://www.kaggle.com/datasets/hojjatk/mnist-dataset) dataset, with more than 99,56% accuracy.
 
 ## Instructions
-The project is written in Python using Jupyter Notebook and CUDA programming lanuage through tensorflow. It can be run both on google colabs or locally.
+- This project features an AI model through a web application, available # [HERE](https://letter-recognition-1.onrender.com/)
+- The AI model is written in Python using Jupyter Notebook and utilizes CUDA programming lanuage through tensorflow. It can be built both on google colabs or locally.
 
 ### Prerequisites (local execution)
 - Tensorflow library installed
