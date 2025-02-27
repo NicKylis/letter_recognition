@@ -1,5 +1,5 @@
-# Hand written Digit Recognition Machine Learning Model
-An AI model that recognizes hand written digits, trained with the [MNIST](https://www.kaggle.com/datasets/hojjatk/mnist-dataset) dataset, with more than 99,56% accuracy.
+# Hand Written Digits Recognition Machine Learning Model
+An AI model that recognizes hand written digits, trained with the [MNIST](https://www.kaggle.com/datasets/hojjatk/mnist-dataset) dataset, with more than 99,64% accuracy.
 
 ## Instructions
 - This project features an AI model through a web application, available [HERE](https://letter-recognition-1.onrender.com/)
