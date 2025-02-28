@@ -1,2 +1,4 @@
-.ipynb_checkpoints/main-checkpoint.ipynb
 res/
+text_model.keras
+.ipynb_checkpoints/main-checkpoint.ipynb
+.ipynb_checkpoints/main_text-checkpoint.ipynb
