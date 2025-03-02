@@ -1,4 +1,4 @@
-name: img_to_txt_env
+name: letter_rec_env
 channels:
   - conda-forge
   - defaults
@@ -144,6 +144,9 @@ dependencies:
       - pygments==2.19.1
       - pyparsing==3.2.1
       - pyppmd==1.1.1
+      - pyqt5==5.15.11
+      - pyqt5-qt5==5.15.2
+      - pyqt5-sip==12.17.0
       - pytesseract==0.3.13
       - python-dateutil==2.9.0.post0
       - python-json-logger==3.2.1
