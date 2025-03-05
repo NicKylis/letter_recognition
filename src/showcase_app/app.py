@@ -286,7 +286,7 @@ class main(object):
         self.upscaling_value.setText(str(round(value / 100.0, 2)))
 
 if __name__ == "__main__":
-    image_path = 'testimage3.png'
+    image_path = 'testimage2.png'
     image = cv.imread(image_path)
     app = QApplication(sys.argv)
     main_window = QMainWindow()
